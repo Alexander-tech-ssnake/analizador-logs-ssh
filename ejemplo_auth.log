@@ -1,0 +1,12 @@
+2026-10-09T14:39:37.080271-05:00 servidor-demo sshd-session[2208]: Failed password for invalid user usuariofalso from 203.0.113.10 port 52180 ssh2
+2026-10-09T14:39:56.206902-05:00 servidor-demo sshd-session[2208]: Failed password for invalid user usuariofalso from 203.0.113.10 port 52180 ssh2
+2026-10-09T14:40:02.530226-05:00 servidor-demo sshd-session[2208]: Failed password for invalid user usuariofalso from 203.0.113.10 port 52180 ssh2
+2026-10-09T14:41:00.787869-05:00 servidor-demo sshd-session[2221]: Failed password for invalid user admin from 203.0.113.10 port 49054 ssh2
+2026-10-09T14:41:07.922911-05:00 servidor-demo sshd-session[2221]: Failed password for invalid user admin from 203.0.113.10 port 49054 ssh2
+2026-10-09T14:41:13.621162-05:00 servidor-demo sshd-session[2221]: Failed password for invalid user admin from 203.0.113.10 port 49054 ssh2
+2026-10-09T14:41:33.921943-05:00 servidor-demo sshd-session[2234]: Failed password for deploy from 203.0.113.10 port 35846 ssh2
+2026-10-09T14:41:39.026946-05:00 servidor-demo sshd-session[2234]: Failed password for deploy from 203.0.113.10 port 35846 ssh2
+2026-10-09T14:41:45.931628-05:00 servidor-demo sshd-session[2234]: Failed password for deploy from 203.0.113.10 port 35846 ssh2
+2026-10-09T16:38:18.958778-05:00 servidor-demo sshd-session[2382]: Failed password for invalid user usuariofalso from 198.51.100.23 port 45908 ssh2
+2026-10-09T16:38:25.924679-05:00 servidor-demo sshd-session[2382]: Failed password for invalid user usuariofalso from 198.51.100.23 port 45908 ssh2
+2026-10-09T16:38:29.509034-05:00 servidor-demo sshd-session[2382]: Failed password for invalid user usuariofalso from 198.51.100.23 port 45908 ssh2

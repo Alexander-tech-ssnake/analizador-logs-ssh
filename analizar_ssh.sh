@@ -11,4 +11,4 @@ fi
 
 echo "Intentos fallidos de SSH por IP en: $LOG"
 echo "----------------------------------------"
-grep "Failed password" "$LOG" | grep -oP 'from \K[0-9.]+' | sort | uniq -c | sort -nr
+grep -E 'sshd(-session)?\[[0-9]+\]: Failed password for' "$LOG" | grep -oP 'from \K[0-9.]+(?= port [0-9]+ ssh2$)' | sort | uniq -c | sort -nr
