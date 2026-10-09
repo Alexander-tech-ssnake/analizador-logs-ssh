@@ -35,11 +35,11 @@ El script utiliza erramientas nativas de Linux para extraer y formatear la infor
 * Detección de Umbrales: Compara la cantidad de fallos por IP contra un umbral definido para emitir aletas de posibles ataques de fuerza bruta.
 
 ## Limitaciones y mejoras futuras
-#Limitaciones actuales 
+##Limitaciones actuales 
 Solo analiza un archivo de log local a la vez; no soporta lectura en tiempo real mediante streaming. 
 No distingue entre usuarios reales e inexistentes en el sistema durante el conteo de fallos. 
 Requiere ejecutarse manualmente por el usuario. 
-#Mejoras futuras 
+##Mejoras futuras 
 *Agregar opción de monitoreo en tiempo real (modo watch/tail). 
 *Integración con la API de ipinfo.io para geolocalizar las direcciones IP atacantes.
 *Exportación de resultados a formatos estructurados (JSON o CSV). 
