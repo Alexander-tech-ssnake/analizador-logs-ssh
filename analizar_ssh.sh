@@ -4,7 +4,7 @@
 
 LOG="${1:-/var/log/auth.log}"
 
-if [ ! -r "$LOG"]; then
+if [ ! -r "$LOG" ]; then
 	echo "Error: no se pude leer $LOG (¿olvidaste usar sudo?)"
 	exit 1
 fi
